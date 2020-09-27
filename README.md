@@ -7,9 +7,9 @@ More Information is available on my published paper - *http://iasir.net/ijswsiss
 **Screenshot**
 
 *Login Page*
-![alt_text](https://github.com/TDeepanshPandey/Mail_Authenticator_and_Classifier/blob/master/new%20login%20windiw.png)
+![alt_text](https://github.com/TDeepanshPandey/Automatic_Email_Classifier_Supervised_Learning/blob/master/new%20login%20windiw.png)
 
 *Main Page*
-![alt_text](https://github.com/TDeepanshPandey/Mail_Authenticator_and_Classifier/blob/master/main.png)
+![alt_text](https://github.com/TDeepanshPandey/Automatic_Email_Classifier_Supervised_Learning/blob/master/main.png)
 
 
