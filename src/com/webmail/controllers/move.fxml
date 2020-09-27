@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" styleClass="root" stylesheets="@../gfx/Login.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.webmail.controllers.MoveController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="334.0" prefWidth="450.0" spacing="10.0" styleClass="tdp" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="75.0" AnchorPane.topAnchor="31.0">
+         <children>
+            <ListView fx:id="folderListView" prefHeight="328.0" prefWidth="328.0">
+               <VBox.margin>
+                  <Insets left="50.0" right="50.0" top="30.0" />
+               </VBox.margin></ListView>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Button fx:id="btnMove" mnemonicParsing="false" prefHeight="30.0" prefWidth="120.0" text="Move" />
+                  <Button fx:id="btnCancel" mnemonicParsing="false" prefHeight="30.0" prefWidth="120.0" text="Cancel">
+                     <HBox.margin>
+                        <Insets right="50.0" />
+                     </HBox.margin></Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
